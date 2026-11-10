@@ -1,0 +1,73 @@
+/* Menargetkan seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+
+/* Styling Bagian Header */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0; /* Box model: Padding atas bawah */
+}
+
+/* Styling Navigasi */
+nav {
+    background-color: #34495e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan titik bullet */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px; /* Box model: Margin pendorong antar link */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; /* Menghilangkan garis bawah link */
+}
+
+/* Membatasi lebar konten utama agar nyaman dibaca */
+main {
+    max-width: 800px;
+    margin: 30px auto; /* Margin auto menengahkan konten secara horizontal */
+    padding: 0 20px;
+}
+
+/* Membuat efek 'Kartu' pada setiap bagian menggunakan Box Model */
+section {
+    background-color: #ffffff;
+    margin-bottom: 25px; /* Jarak antar kartu */
+    padding: 25px; /* Jarak dari teks ke tepi kartu */
+    border-radius: 8px; /* Membuat sudut membulat */
+    border: 1px solid #e0e0e0;
+}
+
+/* Styling khusus untuk gambar profil */
+img {
+    display: block;
+    margin: 0 auto 15px auto; /* Menengahkan gambar dan memberi jarak bawah */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    border: 3px solid #2c3e50;
+}
+
+/* Styling Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin-top: 40px;
+}
